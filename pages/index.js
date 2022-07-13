@@ -1,15 +1,15 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Head from 'next/Head'
+// import Head from 'next/Head'
 
 export default function Home() {
     return (
         <>
-            <Head>
+            <div>
                 <title>
                     Ninja List | Home
                 </title>
-            </Head>
+            </div>
             <div>
                 <h1 className={styles.title}>Ninja List</h1>
                 <p className={styles.text}>Lorem ipsum</p>
